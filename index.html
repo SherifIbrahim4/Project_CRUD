@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>          <div class="gg">
+                    <h3><span>(</span>S<span>H</span>E<span>R</span>I<span>f</span>)</h3>
+                </div> 
+                <div class="hh text-center text-info">
+                        <h4>Mobile Version</h4>
+                    </div>
+            <div class="inp mt-3 w-75 m-auto ">
+                <label for="productName">Name :</label>
+                <input type="text" id="productName" class="form-control pb-2 mb-2">
+
+
+                <label for="productPrice">Price :</label>
+                <input type="text" id="productPrice" class="form-control pb-2 mb-2">
+
+
+                <label for="productCategore">Categore :</label>
+                <input type="text" id="productCategore" class="form-control pb-2 mb-2">
+
+
+                <label for="productDesc">Desc :</label>
+                <input type="text" id="productDesc" class="form-control pb-3 mb-2">
+                <button id="btnProduct" class="btn btn-outline-primary w-25">Add</button>
+                </div>
+            
+            <div class="search w-50 m-auto mt-2 text-center">
+                <label class="" for="search">search ..</label>
+                <input onkeyup="searchProducts(this.value)" class="w-100 mb-3 form-control">
+            </div>
+            <div class="container">
+            <table class="w-100 text-center">
+                <thead class="border-bottom border-primary border-top border-primary">
+                    <th class="dis">Index</th>
+                    <th>Name</th>
+                    <th>Price</th>
+                    <th class="dis">Categore</th>
+                    <th class="dis">Desc</th>
+                    <th>Update</th>
+                    <th>Delete</th>
+                </thead>
+                <tbody id="productTable">
+        
+          
+                </tbody>
+            </table>
+        </div>
+
+
+
+        <script src="main.js"></script>
+</body>
+</html>

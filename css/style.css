@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+::-webkit-scrollbar
+{
+    width: 10px;
+    background-color:blue;
+}
+.gg
+{
+
+    width: 100%;
+    margin: auto;
+    margin: 20px 0px;
+}
+.gg h3
+{
+    padding-left: 40px;
+    text-align: center;
+    letter-spacing: 50px;
+}
+.gg h3 span
+{
+    color: blue;
+}
+body
+{
+    background-color: rgb(5, 5, 5);
+    color: #fff;
+}
+.hh{
+    display: none;
+}
+
+.btn{
+    transition: .5s;
+}
+label
+{
+    padding-bottom: 5px;
+}
+.search input
+{
+    
+    background-color: black;
+    border: solid 1px green;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.search label
+{
+    color:aqua;
+    letter-spacing: 2px;
+}
+
+.inp input{
+    color: rgb(254, 254, 255);
+    font-weight: 500;
+    font-size: 1.1rem;
+    background-color:black;
+    border: solid 1px rgb(103, 103, 243);
+}
+.inp label{
+    font-size: 1.2rem;
+}
+table thead th
+{
+    font-size: 1.1rem;
+    padding: 3px 0px;
+}
+table tr td
+{
+    padding: 5px 0px;
+}
+@media (max-width:667px) {
+    table{
+        width: 100%;
+    }
+    .container{
+        width: 100%;
+    }
+    
+    .container table .dis{
+        display: none;  
+    }
+    .inp input{
+        height: 30px;
+    }
+    .hh{
+        display: block;
+        margin-top: 30px;
+    }
+    table tr td
+{
+    padding: 5px 0px;
+}
+.btn
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+    .search input{
+        height: 30px;
+    }
+    .gg h3
+    {
+    
+        letter-spacing: 30px;
+    }
+    button
+    {
+    height:30px;
+    }
+}
